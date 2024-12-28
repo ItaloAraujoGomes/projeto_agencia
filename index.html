@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Nexcent</title>
   </head>
@@ -11,9 +17,9 @@
       <nav>
         <div>
           <img src="/assets/logo.png" alt="Logo da empresa" />
-          <a href="#">Nexcent</a>
+          <a href="index.html"><img src="/assets/Nexcent.png" alt="" /></a>
         </div>
-        <div>
+        <div id="nav">
           <a href="#">Home</a>
           <a href="#">Service</a>
           <a href="#">Feature</a>
@@ -21,23 +27,23 @@
           <a href="#">Testimonial</a>
           <a href="#">FAQ</a>
         </div>
-        <div>
-          <a href="#">Login</a>
-          <a href="#">Sign up </a>
+        <div id="register">
+          <a href="#" id="login">Login</a>
+          <a href="#" id="sign">Sign up </a>
         </div>
       </nav>
     </header>
     <main>
       <section id="initial">
         <div id="initial-text">
-          <h1>Lessons and insights<span>from 8 years</span></h1>
+          <h1>Lessons and insights <br><span>from 8 years</span></h1>
           <p>
             Where to grow your business as a photographer: site or social media?
           </p>
           <a href="#">Register</a>
         </div>
         <div id="initial-img">
-          <img src="/assets/Illustration.png" alt="Ilustração" />
+          <img src="/assets/Illustration.png" alt="Ilustração" height="370"/>
         </div>
       </section>
       <section id="clients">
@@ -200,7 +206,12 @@
       <div>
         <p>Stay up to date</p>
         <form>
-          <input type="email" name="email" id="email" placeholder="Your email address" >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email address"
+          />
         </form>
       </div>
     </footer>
