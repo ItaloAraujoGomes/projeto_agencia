@@ -1,11 +1,7 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    font-family: "Inter", serif;
-}
+
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 30px 0px;
     background-color: #F5F7FA;
 }

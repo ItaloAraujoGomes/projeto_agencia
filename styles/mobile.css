@@ -1,0 +1,25 @@
+#mobile{
+    display: flex;
+    justify-content: space-around;
+    gap: 49px;
+}
+
+#mobile img{
+    padding-block: 50px;
+}
+
+#mobile div{
+    padding-block: 82.5px;
+}
+
+.mobile h2{
+    font: var(--h2);
+    color: var(--neutral-dgrey);
+    max-width: 601px;
+}
+
+.mobile p{
+    font: var(--body-3);
+    color: var(--neutral-grey);
+    max-width: 601px;
+}

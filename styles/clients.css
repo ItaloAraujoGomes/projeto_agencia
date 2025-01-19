@@ -1,1 +1,23 @@
-h3
+
+#clients{
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#clients h2{
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+}
+#clients p{
+    text-align: center;
+    color: #4D4D4D;
+    font-size: 16px;
+}
+.clients{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 49px 0px;
+}
