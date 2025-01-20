@@ -3,8 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: var(--font-family);
-    max-width: 1440px;
-    margin-inline: auto;
+    
 }
 
 :root{
@@ -16,7 +15,7 @@
     --neutral-silver: #F5F7FA;
     --neutral-white: #FFFFFF;
 
-    --primary: #28CB8B;
+    --primary: #4CAF4F;
     --secondary: #263238;
     --info: #2194f3;
 
@@ -49,6 +48,14 @@
 }
 
 .container {
-    max-width: 1440px;
+    width: 1440px;
     margin-inline: auto;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .bgcolor{
+    background-color: #F5F7FA;;
   }

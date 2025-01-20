@@ -1,11 +1,15 @@
 #mobile{
     display: flex;
     justify-content: space-around;
-    gap: 49px;
+    padding-bottom: 48px;
 }
 
 #mobile img{
     padding-block: 50px;
+    height: 441px;
+    width: 329px;
+    object-fit: cover;
+
 }
 
 #mobile div{
@@ -16,10 +20,20 @@
     font: var(--h2);
     color: var(--neutral-dgrey);
     max-width: 601px;
+    padding-bottom: 16px;
 }
 
 .mobile p{
     font: var(--body-3);
     color: var(--neutral-grey);
     max-width: 601px;
+    padding-bottom: 32px;
+}
+
+.mobile a{
+    color: var(--neutral-white);
+    background-color: var(--primary);
+    padding-inline: 32px;
+    padding-block: 14px;
+    border-radius: 4px;
 }

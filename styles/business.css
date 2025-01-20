@@ -1,0 +1,50 @@
+#business{
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 144px;
+    padding-block: 64px;
+    align-items: center;
+}
+
+.gridt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.flext{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+} 
+
+#business div h2{
+    font: var(--h2);
+}
+
+div h2 span{
+    color: var(--primary);
+}
+
+.flext div p{
+    font: var(--body-2);
+}
+
+.flext div p{
+    color: var(--neutral-dgrey);
+}
+
+.flext div p:nth-child(1){
+    font: var(--h3);
+    font-weight: bold;
+}
+
+.flext img {
+    object-fit: cover;
+    height: 48px;
+    width: 48px;
+}
+
+section #business div p:nth-child(2) {
+    font: var(--body-2);
+}
