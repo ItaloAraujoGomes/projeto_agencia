@@ -1,7 +1,6 @@
 #business{
     display: flex;
     justify-content: space-around;
-    padding-inline: 144px;
     padding-block: 64px;
     align-items: center;
 }
