@@ -1,0 +1,35 @@
+#customers{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+}
+
+.customers{
+    max-width: 748px;
+    max-height: 324px;
+}
+
+.customers p{
+    font: var(--body-2);
+    color: var(--neutral-grey);
+    margin-bottom: 16px;
+}
+
+.customers h4{
+    font: var(--h4);
+    color: var(--primary);
+    margin-bottom: 8px;
+}
+
+.customers div{
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.customers div a {
+    font: var(--h4);
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+}
