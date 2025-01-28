@@ -1,0 +1,27 @@
+#demo{
+    height: 300px;
+    text-align: center;
+}
+
+#demo div h2{
+    padding-top: 32px;
+    font: var(--h1);
+    color: var(--neutral-black);
+}
+
+
+
+#demo div a{
+    margin-top: 32px;
+    background-color: var(--primary);
+    width: 178px;
+    height: 52px;
+    border-radius: 4px;
+    color: var(--neutral-white);
+    font: var(--body-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-inline: auto;
+}
