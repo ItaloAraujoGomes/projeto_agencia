@@ -1,0 +1,71 @@
+#marketing{
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 100px;
+}
+
+#marketing h3{
+    font: var(--h3);
+    color: var(--neutral-dgrey);
+    margin-bottom: 8px;
+}
+
+#marketing p{
+    max-height: 72px;
+    max-width: 628px;
+    text-align: center;
+    margin-inline: auto;
+    font: var(--body-2);
+    color: var(--neutral-grey);
+    margin-bottom: 16px;
+    
+}
+
+#marketing-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#img-container{
+    position: relative;
+
+}
+
+#img-container img{
+    height: 286px;
+    width: 368px;
+    object-fit: cover;
+}
+#text{
+    height: 176px;
+    width: 317px;
+    position: absolute;
+    padding: 16px;
+    background-color: var(--neutral-silver);
+    right: 25.5px;
+    top: 190px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
+}
+
+#text p{
+    font: var(--h4);
+    padding-bottom: 16px;
+}
+
+#text a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: var(--h4);
+    color: var(--primary);
+    gap: 8px;
+    padding-top: 16px;
+    
+}
+
+#text a img{
+    height: 24px;
+    width: 24px;
+    object-fit: cover;
+}

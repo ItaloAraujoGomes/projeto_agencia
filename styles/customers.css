@@ -31,5 +31,6 @@
     font: var(--h4);
     color: var(--primary);
     display: flex;
+    gap: 8px;
     align-items: center;
 }
